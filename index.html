@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>almasurat💕</title>
+    <style>
+        /* Desain Dasar */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff5f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        /* Kotak Utama (Responsive) */
+        .card {
+            background: white;
+            padding: 40px 20px;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(255, 183, 197, 0.4);
+            width: 85%;
+            max-width: 450px; /* Batas lebar di laptop */
+            transition: transform 0.3s ease;
+        }
+
+        h1 {
+            color: #ff8da1;
+            margin: 0 0 15px 0;
+            font-size: 32px;
+        }
+
+        p {
+            color: #5a6b6c;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 35px;
+        }
+
+        /* Tombol Download yang Nyaman di HP & Laptop */
+        .download-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffb7c5 0%, #ff8da1 100%);
+            color: white;
+            text-decoration: none;
+            padding: 18px 25px;
+            border-radius: 15px;
+            font-weight: bold;
+            font-size: 18px;
+            gap: 10px;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 15px rgba(255, 141, 161, 0.3);
+        }
+
+        .download-btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(255, 141, 161, 0.5);
+        }
+
+        .download-btn:active {
+            transform: scale(0.98);
+        }
+
+        footer {
+            margin-top: 30px;
+            color: #ffb7c5;
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-size: 12px;
+        }
+
+        /* Penyesuaian khusus layar kecil (HP) */
+        @media (max-width: 480px) {
+            h1 { font-size: 26px; }
+            p { font-size: 14px; }
+            .card { padding: 30px 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>almasturat💕</h1>
+        <p>temen"ku biar offline simple lahya, silakan unduh file PDF Al Ma'tsurat di bawah ini🤗:</p>
+        
+        <a href="almatsurat.pdf" download class="download-btn">
+            <span>📥</span> Download PDF
+        </a>
+    </div>
+
+    <footer>Dzikir Pagi & Petang</footer>
+
+</body>
+</html>
